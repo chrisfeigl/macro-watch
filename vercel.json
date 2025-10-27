@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/compute.py": {
-      "runtime": "python@3.9"
+      "runtime": "vercel-python@1.0.0"
     }
   },
   "crons": [

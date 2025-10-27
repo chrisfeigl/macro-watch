@@ -1,0 +1,17 @@
+{
+  "name": "macro-watch",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "echo skip"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@vercel/kv": "1.0.1",
+    "plotly.js-dist-min": "2.35.2"
+  }
+}

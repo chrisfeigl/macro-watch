@@ -1,0 +1,10 @@
+{
+  "crons": [
+    { "path": "/api/compute", "schedule": "0 20 * * *" }
+  ],
+  "functions": {
+    "api/compute.py": {
+      "runtime": "python3.12"
+    }
+  }
+}

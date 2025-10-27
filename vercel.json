@@ -1,8 +1,10 @@
 {
-  "crons": [{ "path": "/api/compute", "schedule": "0 20 * * *" }],
   "functions": {
     "api/compute.py": {
-      "runtime": "vercel-python@3.12"
+      "runtime": "python@3.9"
     }
-  }
+  },
+  "crons": [
+    { "path": "/api/compute", "schedule": "0 20 * * *" }
+  ]
 }
